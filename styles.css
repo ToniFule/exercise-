@@ -1,0 +1,36 @@
+#firstDiv{
+    background-color: grey;
+}
+#secondDiv{
+  max-width: 600px;
+  margin: auto;
+}
+#firstInput{
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+#firstInput1{
+    width: 400px;
+    height: 30px;
+}
+#firstBtn{
+   
+    background-color: aqua;
+    height: 30px;
+}
+#secondBtn{
+    width: 200px;
+    background-color: aqua;
+    height: 30px;
+}
+#thirdBtn{
+    width: 200px;
+    background-color: aqua;
+    height: 30px;
+}
+#forthBtn{
+    width: 100px;
+    background-color: aqua;
+    height: 30px;
+}

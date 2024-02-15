@@ -12,3 +12,4 @@ async function myCountries() {
     catch{(err)=>console.log(err)}
 }
 myCountries()
+

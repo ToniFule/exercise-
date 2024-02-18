@@ -1,9 +1,19 @@
 #firstDiv{
-    background-color: grey;
+    background-color: rgb(94, 84, 84);
+}
+#firstHead{
+    color: aquamarine;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 #secondDiv{
   max-width: 600px;
   margin: auto;
+}
+#firstPar{
+    color: aquamarine;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #firstInput{
     padding: 10px;
@@ -16,21 +26,35 @@
 }
 #firstBtn{
    
-    background-color: aqua;
+    background-color: aquamarine;
     height: 30px;
 }
 #secondBtn{
     width: 200px;
-    background-color: aqua;
+    background-color: aquamarine;
     height: 30px;
 }
 #thirdBtn{
     width: 200px;
-    background-color: aqua;
+    background-color: aquamarine;
     height: 30px;
 }
-#forthBtn{
-    width: 100px;
-    background-color: aqua;
+#searchBtn{
+    width: 60px;
+    background-color: aquamarine;
     height: 30px;
+    
+}
+#searchBtn:active{
+background-color: blue;
+}
+#reset{
+    width: 50px;
+    background-color: aquamarine;
+    height: 30px;
+}
+#tbl{
+    border: solid;
+    color: black;
+    background-color: aquamarine;
 }

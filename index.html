@@ -9,8 +9,8 @@
 <body>
     <div id="firstDiv">
         <div id="secondDiv">
-            <h1 style="color: aqua;">Countrypedia</h1>
-            <p>This is simple app for gathering information about countries in the World.</p>
+            <h1 id="firstHead">Countrypedia</h1>
+            <p id="firstPar">This is simple app for gathering information about countries in the World.</p>
             <div>
             <button id="firstBtn">Countries using EUR</button>
             <button id="secondBtn">Countries talking English</button>
@@ -20,15 +20,17 @@
     </div>
             <div id="firstInput">
                 <input id="firstInput1" type="text" id="inputcountre" placeholder="Enter countries name or code">
-                <button id="forthBtn" style="background-color:aqua">Search</button>
+                <button onclick="fetchCountry()" id="searchBtn">Search</button>
+                <button  id="reset">Reset</button>
             </div>
-            <div></div>
-       
-        
-       
-         
-    
+            <div>
+      
+                <table id="tbl">
+                    <thead id="thead">
+                    </thead>
+                </table>
+            </div>
         <script src="script.js"></script>
-        </body>
+</body>
         
         </html>

@@ -12,18 +12,21 @@
             <h1 id="firstHead">Countrypedia</h1>
             <p id="firstPar">This is simple app for gathering information about countries in the World.</p>
             <div>
-            <button id="firstBtn">Countries using EUR</button>
-            <button id="secondBtn">Countries talking English</button>
-            <button id="thirdBtn">Macedonia</button>
+            <button onclick="usingEuro()" id="firstBtn">Countries using EUR</button>
+            <button onclick="talkingEnglish()" id="secondBtn">Countries talking English</button>
+            <button onclick="macedoniaBtn()" id="thirdBtn">Macedonia</button>
         </div>
         </div>
     </div>
             <div id="firstInput">
                 <input id="firstInput1" type="text" id="inputcountre" placeholder="Enter countries name or code">
                 <button onclick="fetchCountry()" id="searchBtn">Search</button>
-                <button  id="reset">Reset</button>
+                <button onclick="resetBtn()" id="resetButton">Reset</button>
+                
             </div>
             <div>
+                <ul id="euroCountries"></ul>
+                <ul id="talkingEnglish"></ul>
       
                 <table id="tbl">
                     <thead id="thead">

@@ -1,5 +1,7 @@
 #firstDiv{
-    background-color: rgb(94, 84, 84);
+    background-color: blue;
+    box-sizing: border-box;
+    
 }
 #firstHead{
     color: aquamarine;
@@ -19,6 +21,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
     max-width: 600px;
     margin: auto;
+    
 }
 #firstInput1{
     width: 400px;
@@ -28,33 +31,57 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
     background-color: aquamarine;
     height: 30px;
+    border-radius: 6px;
+    padding: 8px;
 }
 #secondBtn{
     width: 200px;
     background-color: aquamarine;
     height: 30px;
+    border-radius: 6px;
+    padding: 8px;
 }
 #thirdBtn{
     width: 200px;
     background-color: aquamarine;
     height: 30px;
+    border-radius: 6px;
+    padding: 8px;
 }
 #searchBtn{
     width: 60px;
     background-color: aquamarine;
     height: 30px;
+    border-radius: 6px;
+    padding: 8px;
     
 }
-#searchBtn:active{
-background-color: blue;
-}
-#reset{
+
+#resetButton{
     width: 50px;
-    background-color: aquamarine;
+    background-color: rgb(166, 166, 166);
     height: 30px;
+    border-radius: 6px;
+    padding: 8px;
 }
 #tbl{
-    border: solid;
-    color: black;
+   padding: 8px;
     background-color: aquamarine;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+#euroCountries{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: larger;
+    background-color:aquamarine;
+    font-weight: bold;
+
+}
+#talkingEnglish{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: larger;
+    background-color:aquamarine;
+    font-weight: bold;
 }
